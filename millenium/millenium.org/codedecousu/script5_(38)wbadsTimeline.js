@@ -1,0 +1,20 @@
+///////38
+window.wbads=window.wbads||{};
+    window.wbads.timeline={
+        data:[],
+        getTimeSinceStart:function()
+        {
+            if(wbads.timeline.data.length>0)
+            {
+                return wbads.date.getCurrentTimestamp(!0)-wbads.timeline.data[0].timestamp
+            }
+        },
+        logEvent:function(event)
+        {
+            wbads.timeline.data.push(
+                {
+                    timestamp:wbads.date.getCurrentTimestamp(!0),
+                    event:event
+                })
+        }
+    };

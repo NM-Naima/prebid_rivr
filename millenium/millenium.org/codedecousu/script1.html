@@ -1,0 +1,22 @@
+<script>
+        !function(e){
+            function n(o){
+                if(t[o])
+                return t[o].exports;
+                var c=t[o]={i:o,l:!1,exports:{}};
+                return e[o].call(c.exports,c,c.exports,n),c.l=!0,c.exports}
+                var t={};
+                n.m=e,
+                n.c=t,
+                n.d=function(e,t,o){n.o(e,t)||Object.defineProperty(e,t,{configurable:!1,enumerable:!0,get:o})},
+                n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};
+                return n.d(t,"a",t),t},n.o=function(e,n){
+                    return Object.prototype.hasOwnProperty.call(e,n)},n.p="./",n(n.s=0)}([function(e,n,t){"use strict";
+                    var o=t(1),
+                    c=function(e){return e&&e.__esModule?e:{default:e}}(o);!function(e,n){function t(){var o=e.pageYOffset|n.documentElement.scrollTop;Math.abs(o-e.initScrollY)>300&&(e.__cmp("setConsents",null,function(){e.__cmp("showConsentBanner",!1)}),e.removeEventListener("scroll",t))}function o(o,c){c&&c.created&&c.vendorListVersion>=o.vendorListVersion||e.__cmp("showConsentBanner",!0,function(){e.initScrollY=e.pageYOffset|n.documentElement.scrollTop,e.addEventListener("scroll",t)})}if(!e.__cmp){e.__cmp=function(){function t(){if(!e.frames.__cmpLocator)if(n.body){var o=n.createElement("iframe");o.style.display="none",o.name="__cmpLocator",n.body.appendChild(o)}
+        else setTimeout(t,5)}(e.attachEvent||e.addEventListener)("message",function(n){e.__cmp.receiveMessage(n)},!1),t();var o=[],c=function(n,t,c){"ping"===n?c&&c({gdprAppliesGlobally:!!(e.__cmp&&e.__cmp.config&&e.__cmp.config.gdprAppliesGlobally),cmpLoaded:!1}):o.push({command:n,parameter:t,callback:c})};return c.commandQueue=o,c.receiveMessage=function(e){var n=e&&e.data&&e.data.__cmpCall;n&&o.push({callId:n.callId,command:n.command,parameter:n.parameter,event:e})},c}();var r=n.createElement("script");r.async=!1,r.charset="UTF-8",r.src=(c.default.cmpDomain||"")+"cmp.bundle.js";n.getElementsByTagName("head")[0].appendChild(r)}e.__cmp("addEventListener","cmpReady",function(){e.__cmp("getVendorList",null,function(n){var t=setTimeout(function(){o(n)},100);e.__cmp("getVendorConsents",null,function(e){clearTimeout(t),o(n,e)})})})}(window,document)},function(e,n){"use strict";n.__esModule=!0,n.default={development:{cmpDomain:""},staging:{cmpDomain:""},production:{cmpDomain:"https://cmp.webedia.mgr.consensu.org/"}}.production}]);
+        __cmp.config = {
+                            customPolicyLocation:'/site/cookies',
+            customPolicyDataLocation:'/site/politique-de-confidentialite'
+        }
+    </script>

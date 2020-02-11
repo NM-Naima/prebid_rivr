@@ -1,0 +1,11 @@
+<script>
+        function wadsBeforeStart() {
+            if (window.innerWidth < 600) {
+                wads.sitepage = wads.sitepage.replace('[site]', Wbapp.webediads.mobile);
+            } else if(window.innerWidth < 1024) {
+                wads.sitepage = wads.sitepage.replace('[site]', Wbapp.webediads.tablet);
+            } else {
+                wads.sitepage = wads.sitepage.replace('[site]', Wbapp.webediads.desktop);
+            }
+        }
+    </script>
