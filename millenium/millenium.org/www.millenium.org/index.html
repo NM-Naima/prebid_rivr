@@ -12,20 +12,80 @@
 	<meta property="og:title" content="Millenium - Toute l’actualité eSport et jeux vidéo multijoueurs"/>
 	<meta property="og:image" content="https://static1.millenium.org/skin/millenium-amp.png"/>
 	<meta property="og:description" content="Découvrez sur Millenium nos articles, guides et vidéos de tous les jeux multijoueurs dont Fortnite, League of Legends, Hearthstone, Overwatch, World Of Warcraft, Pokémon..."/>
-
-    
     <link rel="shortcut icon" type="image/x-icon" href="https://static1.millenium.org/favicon.ico" />
     <link href="https://static1.millenium.org/common/assets/front/css/vendor.d814edc5f142341b6a11.css" rel="stylesheet" />
     <link href="https://static1.millenium.org/common/assets/front/css/front.d814edc5f142341b6a11.css" rel="stylesheet" />
     <link href="https://static1.millenium.org/common/assets/front/css/baseLtr.d814edc5f142341b6a11.css" rel="stylesheet" />
-    
-    <script ​type​="application/javascript"src="https://ocean.rivrai.com/rivraddon.js"></script>
     <script src="https://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit" async defer></script>
     <script>
-        window.Wbapp = {"isAuthRoute":false,"webediads":{"desktop":"millenium_fr_desktop","tablet":"millenium_fr_tablet","mobile":"millenium_fr_mobile"},"videoDfp":{"url":"https:\/\/player.mediabong.com\/aw\/webedia.xml?src=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fads%3Fiu%3D%2F120157152%2F[SITE]%2F[POSITION]%26url%3Dhttps%3A%2F%2Fwww.millenium.org%26description_url%3Dhttps%3A%2F%2Fwww.millenium.org%26env%3Dvp%26impl%3Ds%26correlator%3D1581263099%26cust_params%3D[CUST_PARAMS]%26tfcd%3D0%26npa%3D0%26gdfp_req%3D1%26output%3Dvast%26sz%3D480x360%7C480x361%26unviewed_position_start%3D1&url=https%3A%2F%2Fwww.millenium.org&ad_unit=\/120157152\/[SITE]\/[POSITION]","positionMapping":{"article_preroll":"playerarticlepreroll","article_postroll":"playerarticlepostroll","footer_preroll":"Playerfooter","footer_postroll":"Playerfooterpostroll"},"vastUrlEncoded":true,"custParams":"pagetype=home"},"bugsnagApiKey":"4be662a742d4869f24764833a84913ec","customDim":{"author_id":4,"customUserId":6,"portal_id":7,"portal_title":8,"guide_id":9,"guide_title":10,"guide_date_published":11,"guide_date_modified":12,"news_id":16,"news_title":17,"news_date_published":18,"news_date_modified":19,"video_id":20,"video_title":21,"video_date_published":23,"video_date_modified":24,"type_page":25,"collection_id":26,"collection_title":27,"entity_id":28,"entity_title":29,"tag_id":30,"tag_title":31,"amp_content":32,"videoLaunch":33,"videoPosition":34,"videoPlaylistPosition":36,"vastURL":37,"hasVideoContent":38,"videoLength":39,"content_section":40,"portal_genre":41,"review_id":42,"review_title":43,"review_date_published":44,"review_date_modified":45}};
-        var site_device="web";window.innerWidth<1024&&(site_device="mobile");
+        console.log('Wbapp object');
+        window.Wbapp = {
+            "isAuthRoute":false,
+            "webediads":
+            {
+                "desktop":"millenium_fr_desktop",
+                "tablet":"millenium_fr_tablet",
+                "mobile":"millenium_fr_mobile"
+            },
+            "videoDfp":
+            {
+                "url":"https:\/\/player.mediabong.com\/aw\/webedia.xml?src=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fads%3Fiu%3D%2F120157152%2F[SITE]%2F[POSITION]%26url%3Dhttps%3A%2F%2Fwww.millenium.org%26description_url%3Dhttps%3A%2F%2Fwww.millenium.org%26env%3Dvp%26impl%3Ds%26correlator%3D1581263099%26cust_params%3D[CUST_PARAMS]%26tfcd%3D0%26npa%3D0%26gdfp_req%3D1%26output%3Dvast%26sz%3D480x360%7C480x361%26unviewed_position_start%3D1&url=https%3A%2F%2Fwww.millenium.org&ad_unit=\/120157152\/[SITE]\/[POSITION]",
+                "positionMapping":
+                {
+                    "article_preroll":"playerarticlepreroll",
+                    "article_postroll":"playerarticlepostroll",
+                    "footer_preroll":"Playerfooter",
+                    "footer_postroll":"Playerfooterpostroll"
+                },
+                "vastUrlEncoded":true,
+                "custParams":"pagetype=home"
+            },
+            "bugsnagApiKey":"4be662a742d4869f24764833a84913ec",
+            "customDim":
+            {
+                "author_id":4,
+                "customUserId":6,
+                "portal_id":7,
+                "portal_title":8,
+                "guide_id":9,
+                "guide_title":10,
+                "guide_date_published":11,
+                "guide_date_modified":12,
+                "news_id":16,
+                "news_title":17,
+                "news_date_published":18,
+                "news_date_modified":19,
+                "video_id":20,
+                "video_title":21,
+                "video_date_published":23,
+                "video_date_modified":24,
+                "type_page":25,
+                "collection_id":26,
+                "collection_title":27,
+                "entity_id":28,
+                "entity_title":29,
+                "tag_id":30,
+                "tag_title":31,
+                "amp_content":32,
+                "videoLaunch":33,
+                "videoPosition":34,
+                "videoPlaylistPosition":36,
+                "vastURL":37,
+                "hasVideoContent":38,
+                "videoLength":39,
+                "content_section":40,
+                "portal_genre":41,
+                "review_id":42,
+                "review_title":43,
+                "review_date_published":44,
+                "review_date_modified":45
+            }
+        };
+        var site_device="web";
+        window.innerWidth<1024&&(site_device="mobile");
     </script>
-        <script type="text/javascript" src="https://www.millenium.org/javascript/wbapp.js"></script>
+   
+        <script type="text/javascript" src="https://www.millenium.org/javascript/wbapp.js">console.log('wbapp fichier load');</script>
     
     
     <style>
@@ -85,6 +145,7 @@
     </style>
 
             <script>
+                console.log('function(e) loaded');
             !function(e){
                 function n(o){
                     if(t[o])
@@ -108,6 +169,7 @@
         </script>
     
     <script>
+        console.log('wadsBeforeStart()');
     function wadsBeforeStart() {
         if (window.innerWidth < 600) {
             wads.sitepage = wads.sitepage.replace('[site]', Wbapp.webediads.mobile);
@@ -1644,18 +1706,19 @@ if(wads.adPerf!=undefined){wads.adPerf.sendEvent('wadsInitialLoaded');}}
 
 <script>
 
-let rivr_client_auth_token = "STRING"
-let rivr_client_id = "STRING"
+    let RIVR_CLIENT_AUTH_TOKEN = "STRING";
+    let RIVR_CLIENT_ID = "STRING";
 
-try{
-    rivraddon.enable({
-        clientID : rivr_client_id,
-        authToken : rivr_client_auth_token,
-        pbjs : window.pbjs,
-    })
-}catch(err){
-    console.error("can not find `rivraddon runtime");
-}
+    try{
+        console.log('rivraddon.enable is loaded')
+        rivraddon.enable({
+            clientID : rivr_client_id,
+            authToken : rivr_client_auth_token,
+            pbjs : window.pbjs,
+        })
+    }catch(err){
+        console.error(err);
+    }
 
 
     var adsconf = { 
@@ -2532,6 +2595,7 @@ try{
         }
     };
 (function f(inputWbAds){
+    console.log('jentre dans la fonctionf');
      window.wbads={
         debug:!1,isPreviewMode:!1,
         testSlotsConfigLoaded:!1,
@@ -2552,14 +2616,26 @@ try{
         start:function(){
         wbads.timeline.logEvent('start');
         if(typeof inputWbAds==='undefined'){
-        if(typeof wbads.config==='object'){inputWbAds={config:wbads.config}}
+        if(typeof wbads.config==='object')
+        {
+            inputWbAds={config:wbads.config}
+        }
         else{console.warn('config not found exit');
         return}
         }
-        if(inputWbAds.config.noStart){inputWbAds.config.noStart=!1;return}
-        wbads.config=inputWbAds.config;if(!wbads.initConfig()){return}
-        wbads.log('[wbads.start]()');if(wbads.isPreviewMode){wbads.preview.DOMReady(wbads.preview.display)}else{for(var library in wbads.libraries){if(wbads.libraries[library].required||wbads.libraries[library].enabled){wbads.libraries[library].load()}}}
-        setTimeout(function(){wbads.localStorage.garbage()},1000)}}}
+        if(inputWbAds.config.noStart){inputWbAds.config.noStart=!1;
+            return}
+        wbads.config=inputWbAds.config;
+        if(!wbads.initConfig()){return}
+        wbads.log('[wbads.start]()');
+        if(wbads.isPreviewMode){wbads.preview.DOMReady(wbads.preview.display)}else{for(var library in wbads.libraries){if(wbads.libraries[library].required||wbads.libraries[library].enabled){wbads.libraries[library].load()}}}
+        setTimeout(function()
+        {
+            wbads.localStorage.garbage()
+        },1000)
+    }
+}
+}
         )
 
 (window.wbads);
@@ -2606,7 +2682,10 @@ window.wbads.adblock={
     detected:function(){
         var detected=0;
         if(this._var.detected!==null){detected=this._var.detected}
-        else if(wbads.localStorage.exists(this.lsCacheKey)){detected=wbads.localStorage.get(this.lsCacheKey)}
+        else if(wbads.localStorage.exists(this.lsCacheKey))
+        {
+            detected=wbads.localStorage.get(this.lsCacheKey)
+        }
         wbads.log('[wbads.adblock.detected]() return '+detected);
         return detected
     }
@@ -2622,18 +2701,34 @@ window.wbads.cappingByPosition={
             ttl:86400
         }
     ],
-    isCappingReached:function(positionName){
-        for(var i=0;i<wbads.cappingByPosition.config.length;i++){
-            if(wbads.cappingByPosition.config[i].position===positionName){
-                if(wbads.localStorage.get('capping_'+positionName)){wbads.log('[wbads.cappingByPosition.isCappingReached]('+positionName+') reached');
-                return!0}
+    isCappingReached:function(positionName)
+    {
+        for(var i=0;i<wbads.cappingByPosition.config.length;i++)
+        {
+            if(wbads.cappingByPosition.config[i].position===positionName)
+            {
+                if(wbads.localStorage.get('capping_'+positionName))
+                {
+                    wbads.log('[wbads.cappingByPosition.isCappingReached]('+positionName+') reached');
+                    return!0
+                }
             }
         }
-        return!1},
+        return!1
+    },
 
-setDisplayed:function(positionName){wbads.log('[wbads.cappingByPosition.setDisplayed]('+positionName+')');
-for(var i=0;i<wbads.cappingByPosition.config.length;i++){
-    if(wbads.cappingByPosition.config[i].position===positionName){wbads.log('[wbads.cappingByPosition.setDisplayed]('+positionName+') registered');wbads.localStorage.setex('capping_'+positionName,wbads.cappingByPosition.config[i].ttl,1)}}}};
+        setDisplayed:function(positionName)
+        {
+            wbads.log('[wbads.cappingByPosition.setDisplayed]('+positionName+')');
+        for(var i=0;i<wbads.cappingByPosition.config.length;i++)
+        {
+            if(wbads.cappingByPosition.config[i].position===positionName)
+            {
+                wbads.log('[wbads.cappingByPosition.setDisplayed]('+positionName+') registered');
+                wbads.localStorage.setex('capping_'+positionName,wbads.cappingByPosition.config[i].ttl,1)}
+            }
+        }
+};
 
 window.wbads=window.wbads||{};
 
@@ -2753,15 +2848,12 @@ window.wbads.events={
     dispatch:function(eventName,params){var position=null;if(params.hasOwnProperty('slot')&&params.slot.hasOwnProperty('getTargetingMap')&&params.slot.getTargetingMap().hasOwnProperty(wbads.autoTargetingPosition)&&params.slot.getTargetingMap()[wbads.autoTargetingPosition].length===1){position=params.slot.getTargetingMap()[wbads.autoTargetingPosition][0];wbads.log('[wbads.event.dispatch]('+eventName+', '+position+')',params)}else{wbads.log('[wbads.event.dispatch]('+eventName+')',params)}
     if(wbads.events.listened[eventName]){for(var i=0;i<wbads.events.listened[eventName].length;i++){wbads.events.listened[eventName][i](params,position)}}}};
 
+///////11
 window.wbads.addEventListener=function(eventName,func){return wbads.events.addListener(eventName,func)};
-
+///////12 
 window.wbads=window.wbads||{};
 
 window.wbads.getCurrentPagesSlots=function(){return adsconf.pagesSlots[adsconf.realCurrentPage]};
-
-
-
-
 
 ///////13
 window.wbads=window.wbads||{};
@@ -3509,34 +3601,44 @@ window.wbads=window.wbads||{}; /////// PREBID LIBRAIRIE ////////////////////////
     }
 },
     
-    launchRequests:function(){wbads.log('[wbads.libraries.prebid.launchRequests]()');
+    launchRequests:function()
+    {
+        wbads.log('[wbads.libraries.prebid.launchRequests]()');
     
-    // REQUESTBIDS
-    pbjs.requestBids({
-        timeout:wbads.timeouts.HBRequest,
-        bidsBackHandler:function(){
-            wbads.libraries.prebid.cacheAdserverTargeting=null;
-            wbads.log({
-                msg:'callback prebid',
-                data:wbads.libraries.prebid.getAdserverTargeting()
-                });
-            wbads.timeline.logEvent('callback prebid');
-            wbads.libraries.prebid.HBfinished=!0;
-            wbads.log('wbads.libraries.gpt.call from wbads.libraries.prebid.launchRequests callback prebid');
-            wbads.libraries.gpt.call()}
-        }
-    );
-    wbads.timeline.logEvent('call prebid')},
+        // REQUESTBIDS
+        pbjs.requestBids({
+            timeout:wbads.timeouts.HBRequest,
+            bidsBackHandler:function(){
+                wbads.libraries.prebid.cacheAdserverTargeting=null;
+                wbads.log({
+                    msg:'callback prebid',
+                    data:wbads.libraries.prebid.getAdserverTargeting()
+                    });
+                wbads.timeline.logEvent('callback prebid');
+                wbads.libraries.prebid.HBfinished=!0;
+                wbads.log('wbads.libraries.gpt.call from wbads.libraries.prebid.launchRequests callback prebid');
+                wbads.libraries.gpt.call()}
+            });
+        wbads.timeline.logEvent('call prebid')
+    },
         load:function(){
         wbads.log('[wbads.libraries.prebid.load]()');
         var prebidConfigFound=!1;
-        for(var slot in wbads.getCurrentPagesSlots()){
-        if(typeof wbads.getCurrentPagesSlots()[slot].prebidConfig==="object"&&typeof wbads.getCurrentPagesSlots()[slot].prebidConfig.bids==="object"&&Array.isArray(wbads.getCurrentPagesSlots()[slot].prebidConfig.bids)&&wbads.getCurrentPagesSlots()[slot].prebidConfig.bids.length>0){
-        prebidConfigFound=!0;
-        break
+        for(var slot in wbads.getCurrentPagesSlots())
+        {
+            if(typeof wbads.getCurrentPagesSlots()[slot].prebidConfig==="object"&&typeof wbads.getCurrentPagesSlots()[slot].prebidConfig.bids==="object"&&Array.isArray(wbads.getCurrentPagesSlots()[slot].prebidConfig.bids)&&wbads.getCurrentPagesSlots()[slot].prebidConfig.bids.length>0)
+            {
+            prebidConfigFound=!0;
+            break
+            }
         }
+    if(!prebidConfigFound)
+    {
+        wbads.log('[wbads.libraries.prebid.load]() no prebid config found');
+        wbads.libraries.prebid.HBfinished=!0;
+        wbads.libraries.gpt.call();
+        return
     }
-    if(!prebidConfigFound){wbads.log('[wbads.libraries.prebid.load]() no prebid config found');wbads.libraries.prebid.HBfinished=!0;wbads.libraries.gpt.call();return}
     
     window.pbjs=window.pbjs||{};
     
@@ -3589,77 +3691,105 @@ window.wbads=window.wbads||{}; /////// PREBID LIBRAIRIE ////////////////////////
                     var site=wbads.getSite().toLowerCase();
                     if(typeof this.partnerIds[site]==="number"){return this.partnerIds[site]}
                     else{console.warn('wbads: unknown partnerId for '+site);return!1}}}},
-                    getAdserverTargeting:function(){
-                        if(wbads.libraries.prebid.cacheAdserverTargeting){
-                            return wbads.libraries.prebid.cacheAdserverTargeting}
-    var res={};
-    var keysToSend=['hb_format','hb_source','hb_size','hb_pb','hb_adid','hb_bidder',];
-    var adserverTargeting=pbjs.getAdserverTargeting();
-    for(var slot in adserverTargeting){if(typeof adserverTargeting[slot].hb_adid==='string'){
-        for(var k in adserverTargeting[slot]){var keyToSend=!1;
-        for(var i=0;i<keysToSend.length&&!keyToSend;i++){
-            if(keysToSend[i]===k){
-                keyToSend=!0
-            }
-        }if
-        (keyToSend){
-            if(typeof res[slot]==='undefined'){res[slot]={}}
-    res[slot][k]=adserverTargeting[slot][k];
-    if((k==='hb_bidder'&&adserverTargeting[slot][k]==='teads')||(k==='hb_format'&&adserverTargeting[slot][k]==='video')){res[slot].hb_safeframe='no'}}}}}
-    wbads.libraries.prebid.cacheAdserverTargeting=res;
-    return res},
+                getAdserverTargeting:function(){
+                    if(wbads.libraries.prebid.cacheAdserverTargeting){
+                        return wbads.libraries.prebid.cacheAdserverTargeting}
+                var res={};
+                var keysToSend=['hb_format','hb_source','hb_size','hb_pb','hb_adid','hb_bidder',];
+                var adserverTargeting=pbjs.getAdserverTargeting();
+                for(var slot in adserverTargeting)
+                    {
+                        if(typeof adserverTargeting[slot].hb_adid==='string')
+                        {
+                            for(var k in adserverTargeting[slot])
+                            {
+                                var keyToSend=!1;
+                                for(var i=0;i<keysToSend.length&&!keyToSend;i++)
+                                {
+                                    if(keysToSend[i]===k){
+                                        keyToSend=!0
+                                    }
+                                }if(keyToSend)
+                                {
+                                    if(typeof res[slot]==='undefined')
+                                    {
+                                        res[slot]={}
+                                    }
+                                    res[slot][k]=adserverTargeting[slot][k];
+                                    if((k==='hb_bidder'&&adserverTargeting[slot][k]==='teads')||(k==='hb_format'&&adserverTargeting[slot][k]==='video'))
+                                    {
+                                    res[slot].hb_safeframe='no'
+                                    }
+                                }
+                            }
+                        }
+                    }
+                wbads.libraries.prebid.cacheAdserverTargeting=res;
+                return res
+                },
     
-    setTargetingForGPT:function(){
-        wbads.log('[wbads.libraries.prebid.setTargetingForGPT]()');
-        var adserverTargeting=wbads.libraries.prebid.getAdserverTargeting();window.googletag.cmd.push(function(){
-            for(var divId in adserverTargeting){
-                var slot=wbads.position.getNameFromDivId(divId);
-                if(typeof wbads.getCurrentPagesSlots()[slot]==='object'&&typeof wbads.getCurrentPagesSlots()[slot].elem==='object'&&typeof adserverTargeting[divId]==='object'){
-                    for(var k in adserverTargeting[divId]){wbads.getCurrentPagesSlots()[slot].elem.setTargeting(k,adserverTargeting[divId][k])}}}})},
-    isAdvertiserId:function(advertiserId){for(var i=0;i<this.advertiserIds.length;i++){if(advertiserId===this.advertiserIds[i]){return!0}}
-    return!1}};
-
-
-    windows.wbads = windows.wbads||{}
-
-windows.wbads.librairies.rivr=
+    setTargetingForGPT:function()
     {
+        wbads.log('[wbads.libraries.prebid.setTargetingForGPT]()');
+        var adserverTargeting=wbads.libraries.prebid.getAdserverTargeting();
+        window.googletag.cmd.push(function()
+        {
+            for(var divId in adserverTargeting)
+            {
+                var slot=wbads.position.getNameFromDivId(divId);
+                if(typeof wbads.getCurrentPagesSlots()[slot]==='object'&&typeof wbads.getCurrentPagesSlots()[slot].elem==='object'&&typeof adserverTargeting[divId]==='object')
+                {
+                    for(var k in adserverTargeting[divId])
+                    {
+                        wbads.getCurrentPagesSlots()[slot].elem.setTargeting(k,adserverTargeting[divId][k])
+                    }
+                }
+            }
+        })
+    },
+    isAdvertiserId:function(advertiserId)
+    {
+        for(var i=0;i<this.advertiserIds.length;i++)
+        {
+            if(advertiserId===this.advertiserIds[i])
+            {
+                return!0
+            }
+        }
+        return!1
+    }
+};
+
+
+window.wbads=window.wbads||{};
+
+window.wbads.libraries.rivr={
         file:"https://ocean.rivrai.com/rivraddon.js",
         required:!1,
         enable:!0,
         loaded:!1,
         HBfinished:!1,
-        isPrebidLoaded = wbads.librairies.prebid.alreadyRun = !1,
-        load: function(){
+        load: function()
+        {
             wbads.log('[wbads.libraries.rivr.load]()');
-            if(this.isPrebidLoaded === true){
+            if(!wbads.libraries.prebid.loaded)
+            {
                 let s = document.createElement('script');
                 s.type = "application/javascript";
                 s.async=!0;
                 s.src= this.file;
-                s.setAttribute('importance, high');
+                s.setAttribute('importance', 'high');
                 let g = document.getElementsByTagName('head')[0];
                 g.parentNode.insertBefore(s,g);
-            }else if(this.isPrebidLoaded === false)
+            }else 
             {
                 return wbads.log('[wbads.libraries.rivr can not be load - prebid.js is already running');
             }
-
-            /*try{
-                rivraddon.enable({
-                    clientID : "STRING",
-                    authToken : "STRING",
-                    pbjs: window.pbjs
-                });
-
-            }catch(err){
-                console.err
-            }*/
         }  
     }
 
-
 ///////28
+window.wbads=window.wbads||{};
     window.wbads.libraries.rendering={
         file:'----------default / replace me-----------',
         required:!0,
@@ -3714,27 +3844,136 @@ window.wbads=window.wbads||{};
         load:function(){
             wbads.log('[wbads.libraries.restrictedPage.load]()');
             var xhttp=(window.XMLHttpRequest?new XMLHttpRequest():new ActiveXObject("Microsoft.XMLHTTP"));
-            xhttp.onreadystatechange=function(){
-                if(xhttp.readyState===4&&xhttp.status===200){var data=JSON.parse(xhttp.responseText);wbads.libraries.restrictedPage.status=data.status;
-                if(wbads.libraries.restrictedPage.status==='Restricted Ad Serving'){wbads.public.addTargeting("adtype","exclusion-adx")}
-                wbads.log({msg:"callback restrictedPage.load",data:data.status});
+            xhttp.onreadystatechange=function()
+            {
+                if(xhttp.readyState===4&&xhttp.status===200)
+                {
+                    var data=JSON.parse(xhttp.responseText);
+                    wbads.libraries.restrictedPage.status=data.status;
+                if(wbads.libraries.restrictedPage.status==='Restricted Ad Serving')
+                {
+                    wbads.public.addTargeting("adtype","exclusion-adx")
+                }
+                wbads.log(
+                    {
+                        msg:"callback restrictedPage.load",
+                        data:data.status
+                    });
                 wbads.libraries.restrictedPage.loaded=!0
                 }
             };
-                xhttp.open("GET",this.file,!0);xhttp.send()
+                xhttp.open("GET",this.file,!0);
+                xhttp.send()
         }
     };
 ///////30
 window.wbads=window.wbads||{};
 
-    window.wbads.localStorage={variablesPrefix:'wbads_',del:function(key){wbads.log('[wbads.localStorage.del]('+key+')');if(typeof(localStorage)!=="undefined"){localStorage.removeItem(this.variablesPrefix+key);return!0}
-    return null},exists:function(key){wbads.log('[wbads.localStorage.exists]('+key+')');return(typeof(localStorage)!=="undefined"&&this.get(key)!==null)},garbage:function(){wbads.log('[wbads.localStorage.garbage]()');if(typeof(localStorage)!=="undefined"){for(var key in localStorage){if(key.indexOf(this.variablesPrefix)!==-1){this.ttl(key.substring(key.indexOf(this.variablesPrefix)))}}}},get:function(key){if(typeof(localStorage)!=="undefined"){var o=JSON.parse(localStorage.getItem(this.variablesPrefix+key));if(o===null){return null}
-    if(o.e==="-1"){return o.v}else{var now=wbads.date.getCurrentTimestamp();if(o.e>=now){return o.v}}}
-    return null},set:function(key,value){try{if(typeof(localStorage)!=="undefined"){localStorage.setItem(this.variablesPrefix+key,JSON.stringify({v:value,e:'-1'}));return!0}}catch(error){}
-    return!1},setex:function(key,ttl,value){try{var expire=wbads.date.getCurrentTimestamp()+ttl;if(typeof(localStorage)!=="undefined"){localStorage.setItem(this.variablesPrefix+key,JSON.stringify({v:value,e:expire}));return!0}}catch(error){}
-    return!1},ttl:function(key){if(typeof(localStorage)!=="undefined"){var o=JSON.parse(localStorage.getItem(this.variablesPrefix+key));if(o===null){return-2}
-    if(o.e===-1){return-1}else{var now=wbads.date.getCurrentTimestamp();if(o.e>now){return(o.e-now)}else{this.del(key);return-2}}}
-    return null}};
+    window.wbads.localStorage={
+        variablesPrefix:'wbads_',
+        del:function(key)
+        {
+            wbads.log('[wbads.localStorage.del]('+key+')');
+            if(typeof(localStorage)!=="undefined")
+            {
+                localStorage.removeItem(this.variablesPrefix+key);
+                return!0
+            }
+            return null
+        },
+        exists:function(key)
+        {
+            wbads.log('[wbads.localStorage.exists]('+key+')');
+            return(typeof(localStorage)!=="undefined"&&this.get(key)!==null)
+        },
+        garbage:function()
+        {
+            wbads.log('[wbads.localStorage.garbage]()');
+            if(typeof(localStorage)!=="undefined")
+            {
+                for(var key in localStorage)
+                {
+                    if(key.indexOf(this.variablesPrefix)!==-1)
+                    {
+                        this.ttl(key.substring(key.indexOf(this.variablesPrefix)))
+                    }
+                }
+            }
+        },
+        get:function(key)
+        {
+            if(typeof(localStorage)!=="undefined")
+            {
+                var o=JSON.parse(localStorage.getItem(this.variablesPrefix+key));
+                if(o===null)
+                {
+                    return null
+                }
+                if(o.e==="-1")
+                {
+                    return o.v
+                }else
+                {
+                var now=wbads.date.getCurrentTimestamp();
+                if(o.e>=now)
+                {
+                    return o.v
+                }
+                }
+            }
+            return null
+        },
+        set:function(key,value)
+        {
+            try
+            {
+                if(typeof(localStorage)!=="undefined")
+                {
+                    localStorage.setItem(this.variablesPrefix+key,JSON.stringify({v:value,e:'-1'}));
+                    return!0
+                }
+            }catch(error){}
+            return!1
+        },
+        setex:function(key,ttl,value)
+        {
+            try
+            {
+                var expire=wbads.date.getCurrentTimestamp()+ttl;
+                if(typeof(localStorage)!=="undefined")
+                {
+                    localStorage.setItem(this.variablesPrefix+key,JSON.stringify({v:value,e:expire}));
+                    return!0
+                }
+            }catch(error){}
+            return!1
+        },
+        ttl:function(key)
+        {
+            if(typeof(localStorage)!=="undefined")
+            {
+                var o=JSON.parse(localStorage.getItem(this.variablesPrefix+key));
+                if(o===null)
+                {
+                    return-2
+                }
+                if(o.e===-1)
+                {
+                    return-1
+                }else{
+                    var now=wbads.date.getCurrentTimestamp();
+                    if(o.e>now)
+                    {
+                        return(o.e-now)
+                    }else
+                    {
+                        this.del(key);return-2
+                    }
+                }
+            }
+            return null
+        }
+    };
 
 ///////31
 window.wbads=window.wbads||{};

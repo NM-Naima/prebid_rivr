@@ -32,6 +32,7 @@ window.wbads.libraries.cmp={
                 wbads.libraries.gpt.personalizedAdsAuthorised=!falseFound
             });
             wbads.libraries.gpt.call()
+            
         }
     }
 };

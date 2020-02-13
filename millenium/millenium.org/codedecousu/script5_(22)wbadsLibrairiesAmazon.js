@@ -83,7 +83,8 @@ window.wbads.libraries.amazon={
                         });
                     wbads.log('amazonLib already loaded');
                     wbads.timeline.logEvent('amazonLib loaded');
-                    wbads.libraries.amazon.loaded=!0;wbads.libraries.amazon.call();
+                    wbads.libraries.amazon.loaded=!0;
+                    wbads.libraries.amazon.call();
                     return
                 }(function(a9,a,p,s,t,A,g)
                 {
